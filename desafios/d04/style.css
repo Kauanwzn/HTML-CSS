@@ -1,0 +1,105 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+* body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin: 0px;
+    color: white;
+}
+
+header {
+    background-color: lightgreen;
+    margin: 0px 0px;
+    padding: 25px 10px;
+    box-shadow: 0 0 5px;
+}
+
+header > h1 {
+    color: green;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    margin-top: 10px;
+}
+
+header > nav {
+    padding: 3px;
+    font-weight: 900;
+    text-align: right;
+}
+
+header > nav > a{
+    text-decoration: none;
+    color: white;
+    padding-right: 30px;
+    font-weight: bold;
+}
+
+header > nav > a:hover {
+    text-decoration: dashed;
+    color: green;
+}
+
+main {
+    margin: 15px;
+    padding: 0px 12px;
+}
+
+main > section > p {
+    padding: 3px;
+}
+
+#assuntoprincipal {
+    margin-right: 1263px;
+}
+
+.natureza-1 {
+    text-align: justify;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #3E7000;
+}
+
+.imagem {
+    width: 43%;
+    margin: 7px;
+    padding: 9px 40px;
+    filter: drop-shadow(1px 1px 20px #3E7000);
+}
+
+.justify {
+    text-align: justify;
+}
+
+.sustentabilidade {
+    border-radius: 20px;
+    padding: 10px;
+    background-color:#3E7000;
+}
+
+.list-2 {
+    font-size: bold;
+    color: black;
+}
+
+.list {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #3E7000;
+}
+footer {
+    padding: 10px 15px;
+}
+
+footer > .end > a {
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+}
+
+footer > .end > a:hover {
+    text-decoration: none;
+    color: #3E7000;
+}
