@@ -22,6 +22,7 @@ header {
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 10vw;
 }
 
 header > p {
@@ -45,6 +46,7 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 3.5vw;
 }
 
 section.normal {
@@ -59,7 +61,8 @@ section.imagem {
 
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.214);
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
 }
 
 footer {
