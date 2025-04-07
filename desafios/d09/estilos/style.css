@@ -14,10 +14,6 @@ html, body {
     background: linear-gradient( to bottom, purple, white);
 }
 
-body {
-    
-}
-
 main {
     height: 100vh;
     position: relative;
